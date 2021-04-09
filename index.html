@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="/static/semantic-ui/semantic.min.css"/>
         <link rel="stylesheet" href="/static/semantic-ui/semantic.fix.css"/>
@@ -11,21 +13,30 @@
         <link rel="stylesheet" href="/static/@fullcalendar/semantic.fullCalendar.css"/>
         <link rel="stylesheet" href="/static/react-semantic-toasts/react-semantic-alert.css"/>
         <link rel="stylesheet" href="/static/pure-react-carousel/react-carousel.es.css"/>
+        <link rel = "icon" href = "favicon.ico"  type = "image/x-icon">
+    <script>
+            function myfunc()
+      {
+        document.getElementById('hamm').style.display="inline";
+      }
+
+
+
+
+          </script>
+
     </head>
-
-
-    
     <body>
         
         
-    <div class="homepage">  
-
-
         <div class="upper">
             <div class="left" id="left">
                 <img src="imglogo.png" id="icon">
+                
+                <div id = "hammburger" ><button onclick="myfunc()" style="margin-left:25vw; background-size: cover;  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPUAAADNCAMAAABXRsaXAAAAaVBMVEUAAAD////6+vrw8PAfHx8cHBz19fXn5+czMzNSUlLz8/MRERE2NjYiIiJsbGzGxsZ1dXW/v7/W1tZ/f3/Jyck1NTWurq5zc3NoaGgtLS21tbVfX1/j4+M9PT3BwcFaWlpOTk6Hh4eVlZXOBACRAAAD7UlEQVR4nO2d63aqMBBGC2i4KCJgsfTUS33/h+zpsoYkBPWHZNaab/YTfHvVJiGZTN4iRN6oA5Ag1gZFwoPiWeuk2/erNy6s+n2XPLSuc+qcM5DXd62rjDrgTPTHSWu1oQ43Ix/Kb50uqZPNyjL1WTfUsWanGVun1JkCkLrWakEdKQBL5VhzHsgGPmzrijpPII6WNdd52iUzrWvqNMGoDWuOy1A/+WCdUGcJSKKtO+ooAem09ZY6SkD22hplBP+l19Z8NhEes7pZK+okQSn+rJGG8Osgjve3VtD/19GaOkpA3rV1Sx0lIK22/qSOEpBPbY00nBXDN9c/6izBOBlfmjvqMMGozL2UA3WaQBysHST+m+FXGnuPFGPyap2d4RjhN76OHeuooI4UAH2QPZxzpexX41/R2DpSvH/kB6Nawzq1/6ZONiPfcTRhHTVcN8bzxvJ061KaPXXAGdg0jqWn8qq65Fm54EGZ5ZfjWHGyyi7mwJSc1BbiINY4iDUOYo2DWOMg1jiINQ5ijYNY4yDWOIg1DmKNg1jjINY4iDUOYo2DWOMg1jiINQ4T1tQlUy/jWeukbvOSuhrwZZR5W6cPrXcn6pwzcKruWu+4Fkuvd9PWnDsNbCesU96tkPydvr4Qb0BAdvqK36kjBSBzbzZxvAIwZmNbo1xP3VnWXOdpl7VpfaROEwyz0xfkrXOkNjFDpy/MbhKc198uW22NsEK5kWlr9itwA9BOX7fuT0hDuHT6ok4SEMxOXxn4fI25NkMaxId1OOY3F+j3NeZeCui+GcjktXd2hmOElcpoPxzz7APgnGvl7fSV8qlQ8FF6zzQj3s0Lp86vI8a1Coc7tQq/3hwXp6edY+mrQfo+9dQ5X0Z/auvHrw3+QV0m9jL8elJbiINY4yDWOIg1DmKNg1jjINY4iDUOYo2DWOMg1jiINQ5ijYNY4yDWOIg1DmKNg1jjINY4TFlTV0y9iKet4+Pl3JdLHpT9+VKP3UcVlRvqasAZ+LhfUdmcqQPOxHn6ndyYc6V0O/EmcsH76sc68Vl/UceaHc8NCIS7mqN37TFvNnEeyAa2tnVDnScQjWXN9ZaLy8G0rqjTBKMyrDle7PFj3DpHaphSaGvMbhIY09aVVlsjrFBuSKcvIKTTFw4F9P91lFFHCUivrTGapVwZOn111FEC0mlrpEHc6PTF8ZEPP7nxpVlThwmG1ekLpeduZu0goXT6quw9Uo6HemOc1xAixbsJ0pWFcqxRO33x3xIfTnNxOn0tJjp9Kc5D2kZFfuv/ExjXeTuzX2Nz61JqjovTvHYsPZ2+um3GZ5thlW27pzt9qYQHyq8ntYU4YFr/ACZxfL6iNSmvAAAAAElFTkSuQmCC'); width:30px ;height:30px ; margin-top: 12px;"</button>
             </div>
-            <div class="right" id="right">
+            </div>
+            <div class="right" id="hamm">
                 <a style="color :black" class="nav-button" href="blog1.html">BLOGS</a>
                 <a style="color :black" class="nav-button" href="#">PROJECTS</a>
                 <a style="color :black" class="nav-button" href="#">TEAMS</a>
@@ -132,7 +143,7 @@
         <div class = contact>
         <h1 style = "font-family: 'Bebas Neue', cursive; font-size: 1.5rem;">Contact Us</h1>
         
-        <p style = " font-size: 14px;">1st floor ICC,IIT Roorkee <br> Roorkee,<br>Uttrakhand,India - 247667 <br><div><img style = "width :20px ; height : 20px;"src="https://icon-library.com/images/find-phone-icon/find-phone-icon-10.jpg"img>&nbsp;&nbsp;&nbsp;&nbsp;<div style = "display: inline-block; color : #f8d06c ;">01332-284-521</div></div><br><div><img style = "width :20px ; height : 20px;"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeWZheh0OhKiGoD95A--9pVkxl9IYS30hgS30iskyoyzJuoszj6GCHC1mSOyeCVNqX7T4&usqp=CAU"img>&nbsp;&nbsp;&nbsp;&nbsp;<div style = "display: inline-block; color : #f8d06c ;">img@iitr.ac.in </div></div><br> <img style="width : 100px ;height :35px;"src="images/icon2.png"img></p>
+        <p style = " font-size: 14px;">1st floor ICC,IIT Roorkee <br> Roorkee,<br>Uttrakhand,India - 247667 <br><div><img style = "width :20px ; height : 20px;"src="https://icon-library.com/images/find-phone-icon/find-phone-icon-10.jpg"img>&nbsp;&nbsp;&nbsp;&nbsp;<div style = "display: inline-block; color : #f8d06c ;">01332-284-521</div></div><br><div><img style = "width :20px ; height : 20px;"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeWZheh0OhKiGoD95A--9pVkxl9IYS30hgS30iskyoyzJuoszj6GCHC1mSOyeCVNqX7T4&usqp=CAU"img>&nbsp;&nbsp;&nbsp;&nbsp;<div style = "display: inline-block; color : #f8d06c ;">img@iitr.ac.in </div></div><br> <img style="width : 100px ;height :35px;"src="icon2.png"img></p>
 
 
         </div>
@@ -146,52 +157,12 @@
 
     </div>
 
-        
-
-
-
-
-        <div class="section5">
-                <span class="xxxx">
-                    ©2021 Information Management group
-                </span>
-        </div>
+       
     
 
     
     </div>
 
-    <script>
-  
-    $(document).ready(function(){
-      $(window).scroll(function(){
-          var scroll = $(window).scrollTop();
-          if (scroll > 1) {
-            $(".left").css("background" , "white");
-          $(".left").addClass("active");
-          }
-        if(scroll<=1){
-          $(".left").css("background" , "#293a52");
-          $(".left").removeClass("active");
-        }
-      })
-    })
-    $(document).ready(function(){
-      $(window).scroll(function(){
-          var scroll = $(window).scrollTop();
-          if (scroll > 1) {
-            $(".r1").css("background" , "white");
-          $(".r1").addClass("active");
-          }
-        if(scroll<=1){
-          $(".r1").css("background" , "#f8d06c");
-          $(".r1").removeClass("active");
-        }
-      })
-    })
-
-   
-    </script>
 
 
     </body>
