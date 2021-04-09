@@ -148,8 +148,7 @@ column-gap: 20px;
 
         @media only screen and (max-width: 756px) 
         {
-            
-                .upper
+            .upper
 {
     display:block;
     position:sticky;
@@ -183,7 +182,5 @@ column-gap: 20px;
                     max-width: none;
                     margin-left:-31px;
                     text-align:center;
-                    }    
-            
-            }
-       
+                    }
+                }
