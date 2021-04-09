@@ -76,6 +76,8 @@ column-gap: 20px;
 .card:hover
 {
     cursor:pointer;
+    transform: scale(1.01,1.01);
+    overflow: hidden;
 }
 .poster{
        border-radius: 10px;
