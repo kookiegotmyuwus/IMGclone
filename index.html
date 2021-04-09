@@ -41,6 +41,38 @@
                 <a style="color :black" class="nav-button" href="#">TEAMS</a>
                 <a style="color :black" class="nav-button" href="#">ALUMINI</a>
             </div>
+
+            <script>
+  
+    $(document).ready(function(){
+      $(window).scroll(function(){
+          var scroll = $(window).scrollTop();
+          if (scroll > 1) {
+            $(".left").css("background" , "white");
+          $(".left").addClass("active");
+          }
+        if(scroll<=1){
+          $(".left").css("background" , "#293a52");
+          $(".left").removeClass("active");
+        }
+      })
+    })
+    $(document).ready(function(){
+      $(window).scroll(function(){
+          var scroll = $(window).scrollTop();
+          if (scroll > 1) {
+            $(".right").css("background" , "white");
+          $(".r1").addClass("active");
+          }
+        if(scroll<=1){
+          $(".right").css("background" , "#f8d06c");
+          $(".right").removeClass("active");
+        }
+      })
+    })
+
+   
+    </script>
         </div>
        
 
@@ -155,6 +187,9 @@
         <br><br>
 
     </div>
+
+
+    
 
        
     

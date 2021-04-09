@@ -425,8 +425,8 @@ flex-grow: 2;
 align-items: center;
     text-align: center;
 flex-grow: 2;
-padding-left: 30px;
-padding-top: 10px;
+width:100px;
+margin-left:-190px;
 
 font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
 }
