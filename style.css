@@ -591,13 +591,14 @@ font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
         
         margin-top:16px;
     }
-    .null {
-        margin-left:8vw;
-        color:white;
-        margin-top:16px;
-        padding:4px;
-        background-color:#040f1b;
-    }
+    .last {
+    padding-left:8.4%;
+    color:white;
+    margin-top:16px;
+    padding-top:15px;
+    padding-bottom:15px;
+    background-color:#263146;;
+}
             }
 
 
