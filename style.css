@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'typopro_bebas_neuelight';
+    src: url('typopro-bebasneue-light-webfont.woff2') format('woff2'),
+         url('typopro-bebasneue-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 body
 {
     margin:0;
@@ -267,31 +275,45 @@ margin: 0.5em 0 0.5em 0 !important;;
 }
 .blogmid
 {
-align-self: center;
+    align-self: center;
+    width:80%;
 display: flex;
 align-items: center;
-flex-wrap: wrap;
 flex-direction: row;
+justify-content:space-around;
+flex-wrap:wrap;
 }
 .blogimg
 {
     display:flex;
 align-items: center;
+max-width:300px;
+height:auto;
 flex-grow: 2;
+height:auto;
+font-size: 1rem;
 }
 .blogp
 {
     display:flex;
 align-items: center;
-    text-align: center;
+justify-content: center;
+text-align: center;
 flex-grow: 2;
 font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
-padding-left:200px;
+min-width:360px;
+max-width:400px;
+
 }
 #blogb
 {
     align-self: center;
-    cursor:pointer;    font-family: 'TypoPRO Bebas Neue'; font-size: 20px; color: #263146;border: 2px solid #263146;padding: 0.5em 1em;
+    cursor:pointer;   
+     font-family: 'TypoPRO Bebas Neue'; 
+     font-size: 20px; color: #263146;
+     border: 2px solid #263146;
+     padding: 0.5em 1em;
+     Lato, "Helvetica Neue", Arial, Helvetica, sans-serif
 
 }
 #blogb:hover
@@ -328,7 +350,8 @@ background-color: #293a52;
 background-position: center;
 
 width: 100%;
-color:#ffffff;}
+color:#ffffff;
+}
 
 
 #hammburger
@@ -425,8 +448,8 @@ flex-grow: 2;
 align-items: center;
     text-align: center;
 flex-grow: 2;
-width:100px;
-margin-left:-190px;
+width:80%;
+:10%;
 
 font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
 }
