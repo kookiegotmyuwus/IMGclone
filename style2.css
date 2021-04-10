@@ -69,7 +69,6 @@ display:block;
     cursor: pointer;
     border: none;
     outline: none;
-    font-weight:1000;
 }
 
 
@@ -230,7 +229,7 @@ display:block;
     color: #000000;
     text-transform: uppercase;
     padding: 0.5em 1em;
-    font-family: "TypoPRO Bebas Neue";
+    font-family: " Bebas Neue";
     font-size: 1.4rem;
     transition: color 0.3s;
     cursor: pointer;
