@@ -307,13 +307,15 @@ max-width:400px;
 }
 #blogb
 {
-    align-self: center;
-    cursor:pointer;   
-     font-family: 'TypoPRO Bebas Neue'; 
-     font-size: 20px; color: #263146;
-     border: 2px solid #263146;
-     padding: 0.5em 1em;
-     Lato, "Helvetica Neue", Arial, Helvetica, sans-serif
+    background-color: transparent;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0.5em 1em;
+    font-family: 'TypoPRO Bebas Neue';
+    font-size: 1.5rem;
+    border: 2px solid #263146;
+    color: #263146;
+    cursor: pointer;
 
 }
 #blogb:hover
