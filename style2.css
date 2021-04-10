@@ -100,7 +100,8 @@ column-gap: 20px;
 .card:hover
 {
     cursor:pointer;
-    transform: scale(1.01,1.01);
+    position:relative;
+    bottom: 3px;
     overflow: hidden;
 }
 .poster{
