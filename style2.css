@@ -1,29 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'typopro_bebas_neuelight';
+    src: url('typopro-bebasneue-light-webfont.woff2') format('woff2'),
+         url('typopro-bebasneue-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 body
 {
     margin:0;
 
 }
-.upper
+*
 {
-    display:block;
+  /*border-style:solid;  */
+}
+.upper {
+display:block;
     position:sticky;
-    overflow-y: auto;
+    z-index: 1000;
     top:0;
     background-color: #ffffff;
     align-items: center;
     width: 100%;
     height: 60px;
     flex-wrap: wrap;
-    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);;
+}
+.hamburger{
+    display: none;
+    height:6vh;
+    width:7vh;
+    margin-top: 1vh; !important
 }
 .left
 {
     float:left;
-    padding-top: 8px;
+    padding-top: 10px;
     padding-left: 12.5%;
     display: flex;
-    justify-content: flex-start;
+    align-self:Center;
     height: 40px;
     width:40px;
 }
@@ -41,14 +59,20 @@ body
 .nav-button
 {
     text-decoration: none;
-    font-family: 'Bebas Neue', cursive;
-        color:black;
-        font-size: 1.5rem;
-        margin-top: 10px;;
-    text-align: center;
-    padding-left:10px;
-    padding-right:32px;
+    background-color: transparent;
+    color: #000000;
+    text-transform: uppercase;
+    padding: 0.5em 1em;
+    font-family: "TypoPRO Bebas Neue";
+    font-size: 1.4rem;
+    transition: color 0.3s;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-weight:1000;
 }
+
+
 
 .cards
 {
@@ -146,43 +170,70 @@ column-gap: 20px;
   {
      display:none;
   } 
-        
+.footer-end {
+    background-color: #263146;
+    
+    margin-top:16px;
+}
+.last {
+    padding-left:12.5%;
+    color:white;
+    margin-top:16px;
+    padding-top:15px;
+    padding-bottom:15px;
+    background-color:#263146;;
+}
 
         @media only screen and (max-width: 756px) 
         {
-            .upper
-{
-    display:block;
+           .upper {
+display:block;
     position:sticky;
-    overflow-y: auto;
+    z-index: 1000;
     top:0;
     background-color: #ffffff;
     align-items: center;
-    width: 100%;
-    height: 100px;
+    min-width: 100%;
+    height: 60px;
     flex-wrap: wrap;
     box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
 }
-            #hammburger{
-                display:inline;
-                margin-left: 200px;
-                margin-top:-8px;
-                }
-                #icon
-                {
-                    margin-left:-40px;
-                }
-                .left{
-                   margin-bottom:10px;
-                   
-                }
-                .right{
-                    display:none;
-                }
-                  .nav-button{
-                      display:inline;
-                    max-width: none;
-                    margin-left:-31px;
-                    text-align:center;
-                    }
-                }
+.hamburger 
+{
+    float:left;
+    padding-top: 1px;
+    display: flex;
+    justify-content: flex-end;
+    height: 40px;
+    width:40px;
+    margin-left:70%;
+        }
+.left
+{
+    float:left;
+    padding-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+    height: 40px;
+    width:40px;
+}
+.right
+{
+    display:none;
+}
+.nav-button
+{
+    text-decoration: none;
+    background-color: transparent;
+    color: #000000;
+    text-transform: uppercase;
+    padding: 0.5em 1em;
+    font-family: "TypoPRO Bebas Neue";
+    font-size: 1.4rem;
+    transition: color 0.3s;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+        }
