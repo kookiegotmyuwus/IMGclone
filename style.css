@@ -234,14 +234,19 @@ body
 }
 .head
 {
-    font-size: 30px;
-    margin-bottom: 5px;
-    top:0px;
+        color: #000000;
+    display: inline;
+    font-family: 'Playfair Display';
+    font-size: 20px;
 }
 .protext
 {
-    color:#99999999;
+    color: #999999;
+    font-size: 14px;
     font-style: italic;
+    line-height: 1em;
+    margin-top: 0.5em;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
 }
 
 
