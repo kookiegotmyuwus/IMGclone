@@ -49,13 +49,16 @@ body
 .nav-button
 {
     text-decoration: none;
-    font-family: 'Bebas Neue', cursive;
-        color:black;
-        font-size: 1.5rem;
-        margin-top: 10px;;
-    text-align: center;
-    padding-left:10px;
-    padding-right:32px;
+    background-color: transparent;
+    color: #000000;
+    text-transform: uppercase;
+    padding: 0.5em 1em;
+    font-family: "TypoPRO Bebas Neue";
+    font-size: 1.4rem;
+    transition: color 0.3s;
+    cursor: pointer;
+    border: none;
+    outline: none;
 }
 
 
