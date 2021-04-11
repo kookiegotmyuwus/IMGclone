@@ -12,7 +12,6 @@ body
     margin:0;
 
 }
-
 .upper {
 display:block;
     position:sticky;
@@ -23,7 +22,9 @@ display:block;
     width: 100%;
     height: 60px;
     flex-wrap: wrap;
-    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    background-size: cover;
+    background-position: center;
 }
 .hamburger{
     display: none;
@@ -79,13 +80,15 @@ display:block;
     display: flex;
     width: 100%;
     height: auto;
+    background-image: url(https://channeli.in//static/maintainer_site/background.svg);
+    background-size: cover;
+    background-position: center;
 }
 
 .left_column
 {
     display:flex;
     flex-direction: row;
-    background-color: #293b52 ;
     width: 50%;
 }
 .text
@@ -131,7 +134,6 @@ display:block;
     display: flex;
     justify-content: center;
     align-items:center;
-    background-color: #f8d16c;
     width:50%;
 }
 
@@ -180,6 +182,7 @@ display:block;
     background-color: transparent;
     font-family: 'Bebas Neue', 'cursive';
     background-color:#ffffff;
+    font-weight:100;
 }
 .viewmore:hover
 {
@@ -205,6 +208,7 @@ display:block;
     display: flex;
     flex-grow: 2;
     flex-wrap: wrap;
+    padding-bottom:15px;
 }
 .box1
 {
@@ -446,12 +450,13 @@ display:block;
     position:sticky;
     z-index: 1000;
     top:0;
-    background-color: #ffffff;
+    background-color:#ffffff;
     align-items: center;
     min-width: 100%;
     height: 60px;
     flex-wrap: wrap;
-    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    background-image: none;
+    
 }
 .hamburger 
 {
@@ -491,6 +496,26 @@ display:block;
     border: none;
     outline: none;
 }
+
+
+
+
+
+.box
+{
+    font-size: 14px;
+    padding-right:30px ;
+    padding-left: 30px; 
+    padding-top: 10px; 
+    padding-bottom: 20px;
+    width:150px;
+    text-align: right;
+    margin-left: 10px;
+    margin-bottom:15px;
+}
+
+
+
 
 
 
